@@ -6,7 +6,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/AtsushiHosaka/obsidian-brain-plugin"
+    "url": "https://github.com/hikaru777/obsidian-brain-plugin"
   },
   "keywords": ["claude-code-plugin", "obsidian", "brain", "mcp"],
   "files": [

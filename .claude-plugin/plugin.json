@@ -5,8 +5,8 @@
   "author": {
     "name": "HikaruHonda"
   },
-  "repository": "https://github.com/AtsushiHosaka/obsidian-brain-plugin",
-  "homepage": "https://github.com/AtsushiHosaka/obsidian-brain-plugin",
+  "repository": "https://github.com/hikaru777/obsidian-brain-plugin",
+  "homepage": "https://github.com/hikaru777/obsidian-brain-plugin",
   "license": "MIT",
   "keywords": ["obsidian", "brain", "knowledge", "agent", "mcp"],
   "skills": "./skills/",
