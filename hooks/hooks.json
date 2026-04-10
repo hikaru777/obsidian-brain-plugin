@@ -1,0 +1,17 @@
+{
+  "description": "Obsidian Brain lifecycle hooks",
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo '[OBSIDIAN-BRAIN] Session started. Run /brain-consolidate to clean up old memories if needed.'",
+            "timeout": 5
+          }
+        ]
+      }
+    ]
+  }
+}

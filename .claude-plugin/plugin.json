@@ -1,0 +1,14 @@
+{
+  "name": "obsidian-brain",
+  "version": "0.1.0",
+  "description": "Turn your Obsidian vault into a domain-specific AI brain with dynamic agents, knowledge management, and cross-agent intelligence",
+  "author": {
+    "name": "HikaruHonda"
+  },
+  "repository": "https://github.com/AtsushiHosaka/obsidian-brain-plugin",
+  "homepage": "https://github.com/AtsushiHosaka/obsidian-brain-plugin",
+  "license": "MIT",
+  "keywords": ["obsidian", "brain", "knowledge", "agent", "mcp"],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json"
+}

@@ -1,0 +1,23 @@
+{
+  "name": "obsidian-brain-plugin",
+  "version": "0.1.0",
+  "description": "Claude Code plugin for obsidian-brain-mcp",
+  "author": "HikaruHonda",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AtsushiHosaka/obsidian-brain-plugin"
+  },
+  "keywords": ["claude-code-plugin", "obsidian", "brain", "mcp"],
+  "files": [
+    ".claude-plugin",
+    ".mcp.json",
+    "skills",
+    "hooks",
+    "README.md",
+    "LICENSE"
+  ],
+  "peerDependencies": {
+    "obsidian-brain-mcp": ">=0.1.0"
+  }
+}

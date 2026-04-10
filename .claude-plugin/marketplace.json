@@ -1,0 +1,21 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "obsidian-brain",
+  "description": "Obsidian-based AI brain with domain-specific agents and cross-agent intelligence",
+  "owner": {
+    "name": "HikaruHonda"
+  },
+  "plugins": [
+    {
+      "name": "obsidian-brain",
+      "description": "Turn your Obsidian vault into a domain-specific AI brain",
+      "version": "0.1.0",
+      "author": { "name": "HikaruHonda" },
+      "source": "./",
+      "category": "productivity",
+      "homepage": "https://github.com/AtsushiHosaka/obsidian-brain-plugin",
+      "tags": ["obsidian", "knowledge-management", "ai-brain", "mcp", "agents"]
+    }
+  ],
+  "version": "0.1.0"
+}
