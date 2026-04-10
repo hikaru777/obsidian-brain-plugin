@@ -2,10 +2,7 @@
   "mcpServers": {
     "obsidian-brain": {
       "command": "npx",
-      "args": ["-y", "obsidian-brain-mcp"],
-      "env": {
-        "OBSIDIAN_BRAIN_VAULT_PATH": ""
-      }
+      "args": ["-y", "obsidian-brain-mcp"]
     }
   }
 }
