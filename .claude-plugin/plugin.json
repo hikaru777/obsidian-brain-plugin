@@ -1,6 +1,6 @@
 {
   "name": "obsidian-brain",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Turn your Obsidian vault into a domain-specific AI brain with dynamic agents, knowledge management, and cross-agent intelligence",
   "author": {
     "name": "HikaruHonda"

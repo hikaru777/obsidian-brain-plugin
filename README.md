@@ -161,6 +161,7 @@ Claude Code のターミナルから直接叩ける。
 |---|---|
 | `/brain-status` | 全エージェント・知識数・健全性のオーバービュー |
 | `/brain-search <query>` | 全エージェント横断で知識を検索 |
+| `/brain-absorb` | 今の会話から decision / belief / pattern を抽出し、適切なエージェントへ一括で書き込む（必要なら新エージェント作成） |
 | `/brain-consolidate` | 古い記憶を整理してアーカイブ（SessionStart フックで推奨される） |
 
 ---
