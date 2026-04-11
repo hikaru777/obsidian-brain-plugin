@@ -7,7 +7,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "echo '[OBSIDIAN-BRAIN] Session started. Run /brain-consolidate to clean up old memories if needed.'",
+            "command": "bash \"${CLAUDE_PLUGIN_ROOT}/hooks/session-start.sh\"",
             "timeout": 5
           }
         ]

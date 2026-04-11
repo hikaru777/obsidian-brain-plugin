@@ -52,6 +52,41 @@ export OBSIDIAN_BRAIN_VAULT_PATH="/path/to/your/ObsidianVault/AI Brain"
 
 ---
 
+## 実際に試す — コピペサンプル
+
+インストール直後に Claude に投げるだけで、Vault にファイルが生まれる。
+
+### ① 最初の信念を記録する (`evolve_belief`)
+
+```
+僕の価値観と今の関心について、master エージェントに最初の信念を記録して。
+「シンプルさを美徳として優先する」という信念を、理由付きで。
+```
+
+**期待される動き:** Claude が `evolve_belief` を `{agent: "master", title: "シンプルさを美徳として優先する", content: "...", reasoning: "..."}` で呼び、`AI Brain/master/beliefs/simplicity-as-virtue.md` が生成される。
+
+✅ 成功判定: `/brain-status` を叩いて `master` 行に `beliefCount: 1` が見えれば OK。
+
+### ② 意思決定を残す (`record_decision`)
+
+```
+次のプロジェクトは Rust ではなく Go で書くことに決めた、と tech エージェントに記録して。
+理由は「チームの習熟度と運用実績」。
+```
+
+→ `AI Brain/tech/decisions/` に判断ログが Markdown で追加される。tech エージェントが未作成なら `suggest_agents` が走って自動で提案・作成される。
+
+### ③ 繰り返しパターンを昇格する (`promote_pattern`)
+
+```
+「PR をマージする前に必ず self review する」っていう習慣が3回観測されたから、
+tech エージェントでパターンとして昇格させて。
+```
+
+→ `AI Brain/tech/patterns/` に固定化されたパターンが生まれ、以後の `get_agent_context` で優先的に参照される。
+
+---
+
 ## 何が違うのか — 「記憶を貯める」ではなく「思考を育てる」
 
 世の中には「AI に記憶を持たせるツール」が山ほどある。obsidian-brain はそれらとは設計思想が違う。
